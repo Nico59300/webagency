@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Webagency</title>
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="responsive.css" >
+    <meta charset="utf-8">
+    <meta name="description" content="Site web de la société Webagency">
+    <meta name="keywords" content="ux design, ui design, seo"/>
+    <meta name="author" content="webagency" />
+    <meta name="copyright" content="Copyright Webagency" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Webagency"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.nicolas-luez.fr"/>
+    <meta property="og:image" content="http://example.com/image.jpg"/>
+    <meta property="og:description" content="Site web de la société Webagency"/>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Webagency">
+    <meta name="twitter:description" content="Site web de la société Webagency">
+    <meta name="twitter:creator" content="@author_handle">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="http://www.example.com/image.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="accueil">
+        <nav>
+            <p><a href="index.html"><img src="images/logo.png" alt="Webagency"></a></p>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <ul>
+                <li ><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="slideshow">
+        <figure>
+            <img src="images/slider/bg1.jpg" alt="">
+            <img src="images/slider/bg2.jpg" alt="">
+        </figure>
+        <div id="text">
+            <h1><span>webagency</span>:l'agence de tous<br> vos projets</h1>
+            <h2>Vous avez un projet web? La Webagency vous aide à le réaliser</h2>
+            <a href="#">Plus d'infos</a>
+        </div>
+    </section>
+    
+    <section id="services">
+        <header>
+            <h1>NOS SERVICES</h1>
+            <div class="separateur"><hr><i class="fa fa-circle" aria-hidden="true"></i></div>
+            <p>Vous avez besoin d'aide dans votre stratégie de communication, notre agence intègre toutes les compétences et les services nécessaires à la réussite de vos projets sur Internet.</p>
+        </header>
+        
+        <div id="container">
+            
+            <p>
+                <img src="images/main-feature.png" alt="#">
+            </p>
+            
+            <div class="bloc_column">
+                
+                <div class="row">
+                    <div class="circle">
+                        <i class="fa fa-2x fa-chart-line" aria-hidden="true"></i>
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2>UX design</h2>
+                        <p>L'expérience utilisateur est au coeur de nos préoccupations,<br> c'est pourquoi nos cherchons a réaliser des interfaces compréhensible et facile d'utilisation</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="circle">
+                        <i class="fa  fa-2x fa-cubes" aria-hidden="true"></i>
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2>UI design</h2>
+                        <p>Nous concevons nos interfaces de façons responsive afin d'assurer l'affichage de votre site sur les différents types de médias</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="circle">
+                        <i class="fa  fa-2x fa-chart-pie" aria-hidden="true"></i>
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2>SEO</h2>
+                        <p>Nous mettons tout en oeuvre afin d'assurer la visibilité de votre site grace au référencement naturel</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="projets">
+            <header>
+                <h1>NOS PROJETS</h1>
+                <div class="separateur"><hr><i class="fa fa-circle" aria-hidden="true"></i></div>
+                <p>Ils nous font confiance, pourquoi pas vous? Découvrez une sélection de nos réalisations effectué pour nos clients</p>
+                <ul>
+                    <li id="all_works" class="active">All Works</li>
+                    <li id ="creative_selector">Creative</li>
+                    <li id="corporate_selector">Corporate</li>
+                    <li id="portfolio_selector">Portfolio</li>
+                </ul>
+            </header>
+        <div id="img_projet">
+            
+            <div class="element_container creative">
+                <img src="images/portfolio/01.jpg" alt="#">
+                    <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>Lunettes</span><br>
+                        La vue à portée de nez
+                    </p>
+                </div>
+            </div>
+            <div class="element_container creative">
+                <img src="images/portfolio/02.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>The rabbit</span><br>
+                        le lapin qui offre des cadeaux
+                    </p>
+                </div>
+            </div>
+            <div class="element_container creative">
+                <img src="images/portfolio/03.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>Pompadour</span><br>
+                        Logo original
+                    </p>
+                </div>
+            </div>
+            <div class="element_container corporate">
+                <img src="images/portfolio/04.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>Document design</span><br>
+                        pour des présentations claire
+                    </p>
+                </div>
+            </div>
+            <div class="element_container corporate">
+                <img src="images/portfolio/05.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>The shopping bag</span><br>
+                        l'identité visuelle à portée de main
+                    </p>
+                </div>
+            </div>
+            <div class="element_container corporate">
+                <img src="images/portfolio/06.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>The city</span><br>
+                        création graphique
+                    </p>
+                </div>
+            </div>
+            <div class="element_container portfolio">
+                <img src="images/portfolio/07.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>la Fusée</span><br>
+                        création de logo
+                    </p>
+                </div>
+            </div>
+            <div class="element_container portfolio">
+                <img src="images/portfolio/08.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>The set</span><br>
+                        recherche complète d'identité visuelle
+                    </p>
+                </div>
+            </div>
+            <div class="element_container portfolio">
+                <img src="images/portfolio/full.jpg" alt="#">
+                <div class="img_desc">
+                    <div><i class="fas fa-eye"></i></div>
+                    <p>
+                        <span>Burger</span><br>
+                        pour toutes les faims
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div id="map_container">
+            <iframe
+          style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDjfrRuBB1vAw1kHDq-cyAmpjzzeSbivzc&q=25+rue+d'hautville+paris" allowfullscreen>
+        </iframe>
+        <div id="blue_overlay"></div>
+        </div>
+        <div class="form_container">
+            <h1>Contact Info</h1>
+            <p>
+                <span>WebAgency SAS</span><br>
+                25 Rue d'Hauteville 75010 Paris<br>
+                <span>Tel :</span> 01 03 04 05
+            </p>
+            <form>
+                <input type="text" name="Name" value="Name">
+                <input type="email" name="Email" value="Email">
+                <input type="text" name="Subject" value="Subjet">
+                <textarea rows="7">Message</textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+    
+<script>
+$(function(){
+    
+
+    $("#creative_selector").hover(function(){
+        $(this).addClass("active");
+        $("#all_works").removeClass("active");
+        $(".corporate").hide();
+        $(".portfolio").hide();
+        },function(){
+        $(this).removeClass("active");
+        $("#all_works").addClass("active");
+        $(".corporate").show();
+        $(".portfolio").show();
+    }
+    );
+    
+    
+    $("#corporate_selector").hover(function(){
+        $(this).addClass("active");
+        $("#all_works").removeClass("active");
+        $(".creative").hide();
+        $(".portfolio").hide(); 
+    },function(){
+        $("#all_works").addClass("active");
+        $(this).removeClass("active");
+        $(".creative").show();
+        $(".portfolio").show();
+    }
+                                  );
+    
+    $("#portfolio_selector").hover(function(){
+        $(this).addClass("active");
+        $("#all_works").removeClass("active");
+        $(".creative").hide();
+        $(".corporate").hide();  
+        },function(){
+        $(this).removeClass("active");
+        $("#all_works").addClass("active");
+        $(".creative").show();
+        $(".corporate").show();
+    }
+    );
+
+});
+</script>
+</body>
+</html>

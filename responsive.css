@@ -1,0 +1,101 @@
+@media screen and (max-width: 527px)
+{
+    #accueil i {
+        display:block;
+        color: #5cadd3;
+        font-size: 2em;
+        margin-top: 25px;
+    }
+
+    
+    #accueil i:hover ~ ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 5;
+        background-color: white;
+        text-align: center;
+        width: 100%;
+        top: 75px;
+    }
+    
+    #accueil ul:hover  {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 5;
+        background-color: white;
+        text-align: center;
+        width: 100%;
+        top: 75px;
+    }
+    
+    #accueil ul {
+        display: none;
+    }
+    
+    #slideshow {
+        display: none;
+    }
+    
+    #services {
+        margin-top: 100px;
+    }
+    
+    #container img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .form_container {
+        position: relative;
+        width: 100%; 
+    }
+    .form_container h1,.form_container p {
+        text-align: center;
+    }
+    
+    form {
+        padding: 20px;
+    }
+    
+    input, textarea {
+        margin:auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #text {
+        left: 8%;
+    }
+    
+    #text h1 {
+    font-size: 1.3em;
+}
+
+    #text h2 {
+    font-size: 0.8em;
+}
+   
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #container p:first-child {
+        margin: auto;
+    }
+    
+    .row {
+        padding: 10px;
+    }
+    
+    #projets ul {
+        padding-left: 0;
+    }
+}
